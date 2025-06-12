@@ -30,3 +30,5 @@ calculadora-combustivel/
 ├── style.css        # Estilos do app
 ├── script.js        # Lógica de cálculo
 └── README.md        # Documentação do projeto
+
+🔗 [Acessar Aplicação Online](https://osvaldocruz2013.github.io/app-calculadora-combustivel/)
