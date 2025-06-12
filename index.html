@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Combustível</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <div class="card">
+      <h1>⛽ Calculadora de Combustível</h1>
+
+      <div class="input-group">
+        <label for="alcool">Preço do Álcool (R$)</label>
+        <input type="text" id="alcool" placeholder="Ex: 5,99">
+      </div>
+
+      <div class="input-group">
+        <label for="gasolina">Preço da Gasolina (R$)</label>
+        <input type="text" id="gasolina" placeholder="Ex: 6,09">
+      </div>
+
+      <div class="input-group">
+        <label for="valor">Valor para abastecer (R$)</label>
+        <input type="text" id="valor" placeholder="Ex: 140,00">
+      </div>
+
+      <button onclick="calcularCombustivel()">Calcular</button>
+
+      <div id="resultado" class="resultado"></div>
+    </div>
+  </div>
+   <footer class="rodape">
+    © 2025 - Desenvolvedor <strong>Cruz</strong>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
